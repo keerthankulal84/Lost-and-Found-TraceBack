@@ -1,0 +1,37 @@
+/* Global styles and colour variables */
+:root {
+  --bg: #f4f6f8;
+  --surface: #ffffff;
+  --text: #1b2733;
+  --muted: #5f6f7e;
+  --border: #e1e7ed;
+  --accent: #0f766e;
+  --accent-dark: #0b5a54;
+  --lost: #e0662f;
+  --lost-bg: #fdeee6;
+  --found: #0f9b72;
+  --found-bg: #e3f6ef;
+  --danger: #c93a3a;
+  --shadow: 0 2px 10px rgba(27, 39, 51, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 1rem;
+}
